@@ -18,6 +18,6 @@ def main():
                 print("Too low!")
        
         else:
-            print("I said between 1 and 10!")
+            print("I said between 1 and 10!") 
 
 main()
