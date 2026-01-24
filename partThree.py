@@ -5,10 +5,15 @@ def main():
     print(f"Charge £{charge:.2f}")
 
 
-def pounds_to_float(d):
-    # TODO
+def pounds_to_float(pounds):
+    mealcost = float(pounds.strip('£'))
+    print(mealcost)
+    return(mealcost)                     
 
-def percent_to_float(p):
-    # TODO
+def percent_to_float(percent):
+    chargefloat = float(percent.strip('%'))
+    chargefloat2 = chargefloat/100
+    print(chargefloat2)
+    return(chargefloat2)              
 
 main()
